@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-COMM | Contacto</title>
+    <link rel="stylesheet" href="estilos_vcomm.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">🔊 V-COMM</div>
+        <ul>
+            <li><a href="proyecto.html">Proyecto</a></li>
+            <li><a href="maqueta.html">Maqueta</a></li>
+            <li><a href="empresa.html">Empresa</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Contacto Institucional</h1>
+        <p>Coordinar Visita Técnica de Evaluación Edilicia</p>
+    </header>
+
+    <div class="container">
+        <section style="margin-bottom: 0;">
+            <div class="contact-wrapper">
+                <h2 style="border: none; text-align: center; display: block; margin-bottom: 1rem;">Solicitud de Presupuesto</h2>
+                <p style="text-align: center; margin-bottom: 2rem; color: #666;">Para el diseño del sistema personalizado coordinaremos una visita a la institución en la que evaluaremos y tomaremos nota del edificio.</p>
+                
+                <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Solicitud registrada. El equipo de V-COMM agendará la visita técnica a la brevedad.');">
+                    <div class="form-group">
+                        <label for="institucion">Establecimiento Educativo / Empresa</label>
+                        <input type="text" id="institucion" required placeholder="Nombre de la institución">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email de Contacto</label>
+                        <input type="email" id="email" required placeholder="ejemplo@correo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="detalles">Mensaje o Consultas Iniciales</label>
+                        <textarea id="detalles" rows="5" required placeholder="Detalle las necesidades de su edificio..."></textarea>
+                    </div>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 V-COMM SAS. Escuela Técnica N° 19 "Alejandro Volta"[cite: 1].</p>
+    </footer>
+
+</body>
+</html>
